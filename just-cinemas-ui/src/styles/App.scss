@@ -1,0 +1,33 @@
+@import "components/Header";
+@import "components/MovieGrid/grid";
+@import "components/MovieGrid/item";
+@import "components/MovieDetails/details";
+@import "components/LocationSelection/locationSelection";
+
+/* Base Application Styles */
+body {
+  color: #fff;
+  background: #000;
+}
+
+black-color{
+  color: #fff;
+}
+
+.height-500{
+  height: 30px;
+}
+
+.tab-link{
+  display: inline-block;
+  padding-left: 16px;
+  padding-right:16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top:8px;
+  font-weight: bold;
+}
+
+.tab-content{
+  margin-top: 20px;
+}
